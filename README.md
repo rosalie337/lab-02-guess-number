@@ -118,4 +118,4 @@ Looking For | Points (10)
 [x] Project and code files are: indented / spaced correctly / clean | 2
 [x] Clear commit history present | 2 
 [ ] Reset button lets user play again | +1
-[]Refactor UI Work to Functions | +1
+[ ]Refactor UI Work to Functions | +1

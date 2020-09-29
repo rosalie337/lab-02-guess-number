@@ -20,27 +20,19 @@
                 Guessing Game
             </h2>
             <content>
-            <p>
-                What number am I thinking of between 1 and 20? 
-                <br/>
-                You have five opportunities to guess the number. 
-                <br/>
-                Guess the number correctly and you win!
-                <br/>
-                <input id="number-input"/>
-                <button id="play-button">Play!</button>
-            </p>
-            <section id="user attempts" class="hidden">
-                Tries remaining:<span id="attempts"></span>
-                <br/>
-                Your guess is:<span id="guess-display"></span>
-                <span id="results-display"></span>
-            </section>
-            </content>
+                <p>What number am I thinking of between 1 and 20?
+                You have five opportunities to guess the number. </p>
+                <p>Guess the number correctly and you win!</p>
+                <input id="number-input" size="6">
+                <button id="play-button">Play</button>
+                <div>Attempts:<span id="attempts-span">5</span></div>
+                <div>Results: <span id="results-span"></span></div>
+                <button id="reset-button">Reset</button>
+           </content>
         </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+        <div>&copy; 2020 Alchemy Code Lab</div>
     </footer>
     <script type="module" src="app.js"></script>
 </body>
